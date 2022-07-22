@@ -1,0 +1,42 @@
+{
+	"info": {
+		"_postman_id": "079f7e83-83e9-4cfa-8660-26747c17c077",
+		"name": "stpsevice",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "read file",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:3000ready/file/:fileName",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000ready",
+					"path": [
+						"file",
+						":fileName"
+					],
+					"variable": [
+						{
+							"key": "fileName",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
