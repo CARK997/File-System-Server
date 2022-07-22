@@ -18,21 +18,85 @@
 					"raw": ""
 				},
 				"url": {
-					"raw": "http://localhost:3000ready/file/:fileName",
+					"raw": "http://localhost:3000/ready/file/myFile0",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "3000ready",
+					"port": "3000",
 					"path": [
+						"ready",
 						"file",
-						":fileName"
-					],
-					"variable": [
-						{
-							"key": "fileName",
-							"value": ""
+						"myFile0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updatefile",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstname\": \"JUBILEU\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
 						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/update/102",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"update",
+						"102"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete file",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/delete/user/100",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"delete",
+						"user",
+						"100"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "list file",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/listAll",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"listAll"
 					]
 				}
 			},
