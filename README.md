@@ -10,7 +10,7 @@ Sistema de processamento de arquivos csv composto por microserviço que manipula
  1. Clonar o repositorio em sua maquina: 
  
     ``` 
-    $ git clone
+    $ git clone https://github.com/CARK997/File-System-Server.git
      ```
 2. Instalar as dependencias atravez do npm: 
      ``` 
